@@ -1,0 +1,13 @@
+P3-art-inbox batch3 Tripo v1 — 2026-10-26 (updated)
+定妆：赤锋红锯齿+橙核 / 壁垒银灰+蓝核 / 长旋青白涡刃+青核 / 衡刃黑白银甲+白核
+
+BEY_chifeng_ATTACK_tripo_v1.glb           ~2.1MB  赤锋 ~16k verts / ~20k faces
+BEY_bilei_DEFENSE_tripo_v1.glb            ~2.0MB  壁垒 ~15k verts / ~19k faces
+BEY_changxuan_STAMINA_tripo_v1.glb        ~3.8MB  长旋中模 10553 verts / 18000 faces（已减面，可进 UE）
+BEY_changxuan_STAMINA_tripo_v1_hipoly.glb ~62MB   长旋高模可选归档（约 102万 verts / 198万 faces）
+BEY_hengblade_BALANCE_tripo_v1.glb        ~1.9MB  衡刃 ~14k verts / ~18k faces
+
+预览 / basecolor：各 BEY_*_preview.png、BEY_*_basecolor.jpg
+LOBBY_gpt_arena_v1.png  GPT大厅概念（抢5/抢8）；未合入 Content，仅收件箱备查。
+
+Feel85 未改。未 git push。未改 UE Content。合入 / 大厅摆螺另排。

@@ -1,0 +1,17 @@
+﻿bey_id,skill_slot,skill_id,name_zh,trigger,condition,effect_key,value,unit,cd_or_charges,notes,duration_s,secondary_key,secondary_value
+chifeng,passive,sk_chifeng_passive,锋锐,on_spawn,always,SK_chifeng_talent_AttackMul,1.1,mul,always,攻击提高10%,0,,1
+chifeng,active,sk_chifeng_active,锋芒一击,player_button,hits_dealt_ge_N_escalating:5/10/15/20,SK_chifeng_active_AttackMul,1.20,mul,escalating_hits,攻击+20%持续3s；RingoutRateAdd=+0.10；用户认可攻型,3,ringout_add,0.1
+bilei,passive,sk_bilei_passive,厚壁,on_spawn,always,SK_bilei_talent_DefenseMul,1.1,mul,always,防御提高10%,0,,1
+bilei,active,sk_bilei_active,铁壁,player_button,hits_taken_ge_N_escalating:5/10/15/20,SK_bilei_active_DefenseMul,1.25,mul,escalating_hits,被撞满档；防御+25%持续3.5s；用户认可防型,3.5,,1
+changxuan,passive,sk_changxuan_passive,绵延,on_spawn,always,SK_changxuan_talent_DecayMul,0.92,mul,always,自然衰减降低8%,0,,1
+changxuan,active,sk_changxuan_active,回春延转,player_button,wall_hits_window:5/10/15/20,SK_changxuan_active_DecayMul,0.75,mul,escalating_wall_window,5秒内撞墙5次可放；下次10秒内10次；后续15秒15次和20秒20次；技能效果不变,4,,1
+hengblade,passive,sk_hengblade_passive,均衡,on_spawn,always,SK_hengblade_talent_AttackMul,1.05,mul,always,攻击、防御各提高5%,0,defense_mul,1.05
+hengblade,active,sk_hengblade_active,中正爆发,player_button,window_hit_bey_and_wall_ge_N_escalating:5/10/15/20,SK_hengblade_active_AttackMul,1.15,mul,escalating_window_s,用户：在N秒窗口内须撞到螺且撞到墙（各≥1）1次才可放；Attack×1.15+Defense×1.10持续3s,3,defense_mul,1.1
+chiwen,passive,sk_chiwen_passive,炽心,on_spawn,always,SK_chiwen_talent_AttackMul,1.06,mul,always,攻击+6% · 自然衰减-4%,0,decay_mul,0.96
+chiwen,active,sk_chiwen_active,炽焰冲锋,player_button,hits_dealt_ge_N_escalating:5/10/15/20,SK_chiwen_active_ExtraKickMul,1.35,mul,escalating_hits,下一记有效碰撞Extra×1.35,0,,1
+huangkai,passive,sk_huangkai_passive,金甲,on_spawn,always,SK_huangkai_talent_IncomingOnlyMul,0.92,mul,always,受到的碰撞击退降低8%,0,,1
+huangkai,active,sk_huangkai_active,金障回击,player_button,hits_taken_ge_N_escalating:5/10/15/20,SK_huangkai_active_IncomingKickMul,0.75,mul,escalating_hits,承伤×0.75且Reflect=0.25；不改RESTITUTION,0,reflect,0.25
+cuipan,passive,sk_cuipan_passive,磐体,on_spawn,always,SK_cuipan_talent_CollisionWearMul,0.88,mul,always,碰撞造成的自身转速损失降低12%,0,,1
+cuipan,active,sk_cuipan_active,磐石沉坠,player_button,wall_hits_window:5/10/15/20,SK_cuipan_active_MassMul,1.15,mul,escalating_wall_window,5秒内撞墙5次可放；下次10秒内10次；后续15秒15次和20秒20次；技能效果不变,5,,1
+shuanghuan,passive,sk_shuanghuan_passive,冷衡,on_spawn,always,SK_shuanghuan_talent_DecayMul,0.95,mul,always,防御+5% · 自然衰减-5%,0,defense_mul,1.05
+shuanghuan,active,sk_shuanghuan_active,霜缚,player_button,window_hit_bey_and_wall_ge_N_escalating:5/10/15/20,SK_shuanghuan_active_EnemyDecayMul,1.12,mul,escalating_window_s,同均衡：N秒内撞螺且撞墙；对手衰减+12%持续3s,3,,1

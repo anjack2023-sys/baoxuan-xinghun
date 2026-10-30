@@ -1,0 +1,67 @@
+key,value,unit,frozen,owner,notes
+DurabilityMax,100,,false,balance,U1
+WearBase,12,,false,balance,U2
+TrapInnerR,1.70,m,false,balance,U3
+TrapOuterR,1.95,m,false,balance,U3
+TrapDwell,1.2,s,false,balance,U4
+TrapSpinExtra,0.08,/s,false,balance,U5
+T_xtr,2.5,s,false,balance,U6
+RaceTarget_5,5,points,false,balance,mode
+RaceTarget_8,8,points,false,balance,mode
+G1_ATK_Attack,1.35,,false,balance,Grade1 ATTACK Attack
+G1_ATK_Defense,0.85,,false,balance,Grade1 ATTACK Defense
+G1_ATK_Mass,0.90,,false,balance,Grade1 ATTACK Mass
+G1_ATK_SpinDecay,0.163,/s,false,balance,Grade1 ATTACK k
+G1_DEF_Attack,0.85,,false,balance,Grade1 DEFENSE Attack
+G1_DEF_Defense,1.35,,false,balance,Grade1 DEFENSE Defense
+G1_DEF_Mass,1.15,,false,balance,Grade1 DEFENSE Mass
+G1_DEF_SpinDecay,0.122,/s,false,balance,Grade1 DEFENSE k
+G1_STA_Attack,0.95,,false,balance,Grade1 STAMINA Attack
+G1_STA_Defense,1.05,,false,balance,Grade1 STAMINA Defense
+G1_STA_Mass,1.30,,false,balance,Grade1 STAMINA Mass
+G1_STA_SpinDecay,0.103,/s,false,balance,Grade1 STAMINA k
+G1_BAL_Attack,1.10,,false,balance,Grade1 BALANCE Attack
+G1_BAL_Defense,1.10,,false,balance,Grade1 BALANCE Defense
+G1_BAL_Mass,1.05,,false,balance,Grade1 BALANCE Mass
+G1_BAL_SpinDecay,0.130,/s,false,balance,Grade1 BALANCE k; 审改 0.135→0.130 对齐 k_mid
+TypeMul_ATK,1.0,,false,balance,预留；本阶段恒 1.0 无克制
+TypeMul_DEF,1.0,,false,balance,预留；本阶段恒 1.0 无克制
+TypeMul_STA,1.0,,false,balance,预留；本阶段恒 1.0 无克制
+TypeMul_BAL,1.0,,false,balance,预留；本阶段恒 1.0 无克制
+G2_SpinDecayMul,0.75,,false,balance,Grade2 stub mul on k
+G3_SpinDecayMul,0.55,,false,balance,Grade3 stub mul on k
+SK_chifeng_passive_AttackMul,1.10,,false,balance,赤锋被动
+SK_chifeng_active_ExtraKickMul,1.35,,false,balance,赤锋主动
+SK_chifeng_active_Duration,2.0,s,false,balance,赤锋主动持续
+SK_bilei_passive_DefenseMul,1.15,,false,balance,壁垒被动
+SK_bilei_passive_Duration,3.0,s,false,balance,壁垒被动持续
+SK_bilei_active_IncomingKickMul,0.70,,false,balance,壁垒主动入站踢偏乘
+SK_bilei_active_Duration,3.5,s,false,balance,壁垒主动持续
+SK_changxuan_passive_DecayMul,0.92,,false,balance,长旋被动衰减乘
+SK_changxuan_active_DecayMul,0.75,,false,balance,长旋主动衰减乘
+SK_changxuan_active_Duration,4.0,s,false,balance,长旋主动持续
+SK_hengblade_passive_AllStatMul,1.05,,false,balance,衡刃被动全属性
+SK_hengblade_active_AttackMul,1.12,,false,balance,衡刃主动攻
+SK_hengblade_active_DefenseMul,1.08,,false,balance,衡刃主动防
+SK_hengblade_active_Duration,3.0,s,false,balance,衡刃主动持续
+SK_chiwen_passive_AttackMul,1.08,,false,balance,炽纹被动
+SK_chiwen_passive_Duration,2.0,s,false,balance,炽纹被动持续
+SK_chiwen_active_OutwardImpulseMul,1.20,,false,balance,炽纹主动推出乘
+SK_chiwen_active_Duration,1.5,s,false,balance,炽纹主动持续
+SK_huangkai_passive_DefenseMul,1.12,,false,balance,煌铠被动
+SK_huangkai_active_ReflectKickMul,0.25,,false,balance,煌铠主动反射比例
+SK_cuipan_passive_WearMul,0.88,,false,balance,翠磐被动磨损乘
+SK_cuipan_active_MassMul,1.15,,false,balance,翠磐主动Mass
+SK_cuipan_active_Duration,5.0,s,false,balance,翠磐主动持续
+SK_shuanghuan_passive_DecayMul,0.95,,false,balance,霜环被动衰减
+SK_shuanghuan_passive_DefenseMul,1.05,,false,balance,霜环被动防
+SK_shuanghuan_active_EnemyDecayMul,1.12,,false,balance,霜环主动敌衰减
+SK_shuanghuan_active_Duration,3.0,s,false,balance,霜环主动持续
+SkillActiveDefaultCharges,1,,false,balance,主动默认次数（CD型可忽略）
+SkillButtonGrayAlpha,0.45,,false,ui,主动按钮灰态透明度
+SPIN_KICK,1.3,,true,freeze,Feel85 DO NOT EDIT
+RESTITUTION,0.9,,true,freeze,Feel85 DO NOT EDIT
+ContactFeelTrial,85,,true,freeze,Feel85 DO NOT EDIT
+KickReferenceSpeed,4.550,,true,freeze,Feel85 DO NOT EDIT
+MaxFrames,3600,frames,true,freeze,60s wall
+TimeLimitSeconds,60,s,true,freeze,60s wall

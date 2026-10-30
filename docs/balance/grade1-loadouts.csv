@@ -1,0 +1,5 @@
+type,grade,attack,defense,mass,spin_decay_k,notes
+ATTACK,1,1.35,0.85,0.90,0.163,Grade1 ATK ~24s; G1_ATK_*
+DEFENSE,1,0.85,1.35,1.15,0.122,Grade1 DEF ~32s; G1_DEF_*
+STAMINA,1,0.95,1.05,1.30,0.103,Grade1 STA/persist ~38s; G1_STA_*; 文案用持久型
+BALANCE,1,1.10,1.10,1.05,0.130,Grade1 BAL ~30s; G1_BAL_*; 审改 spin_decay_k 0.135→0.130 对齐 k_mid≈0.1304；衰减序 ATK>BAL>DEF>STA

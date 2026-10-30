@@ -1,0 +1,17 @@
+﻿bey_id,type,skill_slot,name_zh,condition_zh,effect_zh
+chifeng,ATTACK,passive,锋锐,天赋：上场常驻,攻击提高10%
+chifeng,ATTACK,active,锋芒一击,撞对手5/10/15/20,攻击+20%+击飞率+10%（3s）
+bilei,DEFENSE,passive,厚壁,天赋：上场常驻,防御提高10%
+bilei,DEFENSE,active,铁壁,被撞5/10/15/20,防御+25%（3.5s）
+changxuan,STAMINA,passive,绵延,天赋：上场常驻,自然衰减降低8%
+changxuan,STAMINA,active,回春延转,5秒内撞墙5次；下一档10秒10次；后续15秒15次及20秒20次,衰减再-25%（4s）
+hengblade,BALANCE,passive,均衡,天赋：上场常驻,攻击、防御各提高5%
+hengblade,BALANCE,active,中正爆发,5/10/15/20秒内须撞螺且撞墙各至少一次,攻击+15%且防御+10%（3s）
+chiwen,ATTACK,passive,炽心,天赋：上场常驻,攻击+6% · 自然衰减-4%
+chiwen,ATTACK,active,炽焰冲锋,撞对手5/10/15/20,下一记冲击+35%
+huangkai,DEFENSE,passive,金甲,天赋：上场常驻,受到的碰撞击退降低8%
+huangkai,DEFENSE,active,金障回击,被撞5/10/15/20,承伤×0.75并回抛25%
+cuipan,STAMINA,passive,磐体,天赋：上场常驻,碰撞造成的自身转速损失降低12%
+cuipan,STAMINA,active,磐石沉坠,5秒内撞墙5次；下一档10秒10次；后续15秒15次及20秒20次,质量+15%（5s）
+shuanghuan,BALANCE,passive,冷衡,天赋：上场常驻,防御+5% · 自然衰减-5%
+shuanghuan,BALANCE,active,霜缚,5/10/15/20秒内须撞螺且撞墙各至少一次,对手衰减+12%（3s）

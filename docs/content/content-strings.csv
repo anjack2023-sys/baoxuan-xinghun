@@ -1,0 +1,47 @@
+str_id,zh,context
+lobby_title,对战准备,lobby
+lobby_race5,抢 5 分,lobby
+lobby_race8,抢 8 分,lobby
+lobby_start,开始,lobby
+lobby_hint,点击下方按钮或 1=抢5  2=抢8  TAB切换  |  SPACE/点「开始」,lobby
+pick_hint,从 5 只中选出 3 只，并排好出场顺序,bey_pick
+pick_progress,已选 {0}/3,bey_pick
+pick_confirm,确认出场,bey_pick
+pick_back,返回大厅,bey_pick
+pick_keys,键 1-5 切换  SPACE 确认  R 返回,bey_pick
+blind_title,盲选,blind
+blind_hint,秘密选择下一只（对方看不到）,blind
+blind_wait,等待双方锁定…,blind
+blind_reveal,同时揭晓,blind
+blind_lock,锁定,blind
+blind_confirm,进入准备,blind
+blind_note,揭晓前不可窥视；双方锁定后同时揭晓（本期无倒计时托管）,blind
+prep_launch,进入拉绳,prep
+prep_back,返回大厅,prep
+prep_hint,SPACE/点击 = 拉绳一步后开战,prep
+rope_label,拉绳发射,rope
+settle_next,下一局,round_settle
+settle_to_lobby,返回大厅,round_settle
+match_rematch,再来一局,match_settle
+match_to_lobby,返回大厅,match_settle
+match_hint,再来一局 = 回大厅重选抢5/8 后再选螺,match_settle
+flow_banner,流程：大厅→选螺→准备(拉绳)→战斗→结算/盲选（Feel85冻结）,hud
+fight_hint,战斗中  |  R 中途回大厅,hud
+round_hint,局结算：SPACE/点「下一局」  |  R 回大厅,round_settle
+match_hint_keys,比赛结算：再来一局 / 返回大厅  |  SPACE 再来,match_settle
+blind_hint_keys,盲选：点未用槽 → 锁定 → 双方锁定同时揭晓 → 进入准备  |  R 回大厅,blind
+prep_hint_keys,准备/拉绳：SPACE/点「进入拉绳」  |  R 回大厅,prep
+pick_hint_keys,选螺：点选/1-5 选满 3 只  |  SPACE 确认出场  |  R 返回,bey_pick
+type_attack,攻击型,bey_type
+type_defense,防御型,bey_type
+type_stamina,持久型,bey_type
+type_balance,均衡型,bey_type
+type_stamina_alias,持久型,bey_type
+bey_chifeng,赤锋,bey_name
+bey_bilei,壁垒,bey_name
+bey_changxuan,长旋,bey_name
+bey_hengblade,衡刃,bey_name
+bey_chiwen,炽纹,bey_name
+bey_huangkai,煌铠,bey_name
+bey_cuipan,翠磐,bey_name
+bey_shuanghuan,霜环,bey_name

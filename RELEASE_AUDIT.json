@@ -1,0 +1,43 @@
+{
+  "release_date": "2026-10-30",
+  "scope": "source, tools, safe config, runtime text data and selected handoff documents; no artwork",
+  "engine_verified_from_local_Build_version": "5.8.4",
+  "copied_files_sha256_equal": 263,
+  "source_files_equal": 56,
+  "runtime_csv_files_equal": 5,
+  "sanitized_or_omitted": [
+    {
+      "path": "Config/DefaultEditor.ini",
+      "change": "omitted local editor history and metadata"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "change": "removed entire AndroidFileServerEditor runtime settings section"
+    }
+  ],
+  "credential_scan": {
+    "rules": [
+      "private-key",
+      "provider-token",
+      "credential-url",
+      "literal-secret",
+      "bearer-literal",
+      "jwt"
+    ],
+    "findings": [],
+    "sensitive_values_printed": false,
+    "files_scanned": 272,
+    "additional_entropy_review": "28 high-entropy quoted candidates reviewed: engine input-axis names, asset filenames/import folders and automation test name; no credentials"
+  },
+  "artwork_files_included": 0,
+  "engine_build_or_runtime_test_performed": false,
+  "notes": [
+    "Public source copy is not runnable without missing art/maps or replacements.",
+    "Tools retain historical machine paths and external dependencies.",
+    "Static credential scan cannot guarantee absence of every secret."
+  ],
+  "historical_data_mirror_difference": [
+    "docs/balance/grade1-loadouts.csv",
+    "docs/content/content-strings.csv"
+  ]
+}

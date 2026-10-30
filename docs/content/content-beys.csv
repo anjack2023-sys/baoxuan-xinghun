@@ -1,0 +1,9 @@
+bey_id,name_zh,type,grade,mesh_path,albedo_path,portrait_path,film_sheet,desc
+chifeng,赤锋,ATTACK,1,/Game/Beyblade/Art/Tripo_v1/SM_Chifeng,,/Game/Beyblade/UI/P3/T_PortraitChifeng,,定妆·攻击型；红锯齿+橙核；勿被侧视批覆盖 mesh
+bilei,壁垒,DEFENSE,1,/Game/Beyblade/Art/Tripo_v1/SM_Bilei,,/Game/Beyblade/UI/P3/T_PortraitBilei,,定妆·防御型；银灰厚环+蓝核；勿被侧视批覆盖 mesh
+changxuan,长旋,STAMINA,1,/Game/Beyblade/Art/Tripo_v1/SM_Changxuan,,/Game/Beyblade/UI/P3/T_PortraitChangxuan,,定妆·持久型（禁用「耐力型」文案）；青白涡刃+青核；勿被侧视批覆盖 mesh
+hengblade,衡刃,BALANCE,1,/Game/Beyblade/Art/Tripo_v1/SM_Hengren,,,,定妆·均衡型；黑白银甲+白核（非紫金）；勿被侧视批覆盖 mesh
+chiwen,炽纹,ATTACK,1,/Game/Beyblade/Art/Tripo_v1/SM_Chiwen,,,,侧视新批·攻击；橙炭科技材质 tech_v1；新英雄不覆盖定妆四只外观
+huangkai,煌铠,DEFENSE,1,/Game/Beyblade/Art/Tripo_v1/SM_Huangkai,,,,侧视新批·防御；金炭 tech_v1；新英雄不覆盖定妆四只外观
+cuipan,翠磐,STAMINA,1,/Game/Beyblade/Art/Tripo_v1/SM_Cuipan,,,,侧视新批·持久；橄榄银灰 tech_v1；新英雄不覆盖定妆四只外观
+shuanghuan,霜环,BALANCE,1,/Game/Beyblade/Art/Tripo_v1/SM_Shuanghuan,,,,侧视新批·均衡；蓝银 tech_v1；新英雄不覆盖定妆四只外观

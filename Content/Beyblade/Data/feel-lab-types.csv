@@ -1,0 +1,5 @@
+type,attack,defense,life,move,natural_spin_s
+ATTACK,82,11,110,100,180
+DEFENSE,42,30,140,90,220
+STAMINA,47,18,130,100,230
+BALANCE,62,22,120,95,200
