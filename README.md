@@ -1,6 +1,6 @@
 # 爆旋星魂：《开始即结束》
 
-我是一个普通游戏玩家，不会编程，也不会美术。这个陀螺对战项目从代码到美术，全程由我提出想法、通过 AI 完成。我喜欢它，但它还不完善：玩法、美术和对战体验都还需要优化。现在我要把时间放回找工作上，先停在这里。把源码放出来，希望有人愿意 fork，继续走下去。
+我是一个普通游戏玩家，不会编程，也不会美术。这个陀螺对战项目由我提出想法，主要通过 ChatGPT 完成，3D 模型使用 Tripo 生成。我喜欢它，但它还不完善：玩法、美术和对战体验都还需要优化。现在我要把时间放回找工作上，先停在这里。把源码放出来，希望有人愿意 fork，继续走下去。
 
 **代码、机制文档与纯文本数据按 MIT 开源；全部美术保留权利，需要另行付费授权。** 本仓库没有模型、贴图、人物、场景、UI 图片或 UE 二进制关卡。源码面向编译与继续开发提供；由于缺少原始关卡/美术，不能直接复现视频里的游戏。你可以自行制作替代资产，或通过 GitHub Issue 联系作者协商付费授权。详见 [美术授权](ART_LICENSE.md) 和 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
@@ -53,7 +53,7 @@ $project = Join-Path $PWD 'beyblade-unreal-prototype.uproject'
 
 # Baoxuan Xinghun — The Beginning Is the End
 
-I am an ordinary game player who cannot program or make art. I supplied the ideas and used AI throughout the project, from code to artwork. I care about this spinning-top battle prototype, but its gameplay, visuals and battles still need work. I now need to focus on finding a job, so I am stopping development for now. I am sharing the source in the hope that someone will fork it and continue.
+I am an ordinary game player who cannot program or make art. I supplied the ideas; this project was made mainly with ChatGPT, and the 3D models were generated with Tripo. I care about this spinning-top battle prototype, but its gameplay, visuals and battles still need work. I now need to focus on finding a job, so I am stopping development for now. I am sharing the source in the hope that someone will fork it and continue.
 
 **Code, included documentation and plain-text game data are MIT licensed. All artwork is reserved and requires a separate paid license.** Models, textures, characters, environments, UI images and binary UE levels are not included. The source is provided for compilation and further development; it cannot reproduce the demonstrated game without replacement assets or separately licensed originals. Contact the author through a GitHub Issue to discuss paid asset licensing. See [ART_LICENSE](ART_LICENSE.md) and [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md).
 
